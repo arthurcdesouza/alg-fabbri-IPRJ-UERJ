@@ -222,3 +222,4 @@ Serao feitas perguntas em aula
 - Dijkstra On the foolishness of "natural language programming" https://news.ycombinator.com/item?id=43564386 
 - [Projeto e Analise de Algoritmos - wiki](http://wiki.nosdigitais.teia.org.br/PAA) (em fase de upgrade)
 - Qualquer duvida, o prof. Fabbri se coloca à disposicao para google meet https://meet.google.com/ytc-cqrv-qjm
+.;
