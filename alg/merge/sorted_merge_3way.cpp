@@ -4,7 +4,7 @@
 bool sorted_merge_3way(const int *list_a, int na,
                        const int *list_b, int nb,
                        const int *list_c, int nc,
-                       int *list_abc) {
+                       int *list_abc) { 
     for (int i = 0; i < na - 1; ++i) {
         if (list_a[i] > list_a[i + 1]) {
             return false;
