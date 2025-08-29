@@ -38,4 +38,4 @@ jobs:
           # Use the github token to add the results to the PR
           github-token: ${{ secrets.GITHUB_TOKEN }}
           # Auto-push new results to the gh-pages branch
-          auto-push: true
+          auto-push: true #teste
