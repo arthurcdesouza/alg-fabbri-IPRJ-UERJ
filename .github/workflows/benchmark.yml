@@ -20,7 +20,7 @@ jobs:
 
       - name: Build benchmarks
         run: |
-          mkdir build
+          mkdir -p build
           cd build
           cmake .. -DBUILD_THIRD_PARTY_TESTS=OFF
           make
