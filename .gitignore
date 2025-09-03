@@ -1,0 +1,15 @@
+pvt/
+priv/
+*.bak
+a
+a-bin
+CMakeCache.txt
+CMakeFiles/
+CTestTestfile.cmake
+Makefile
+Testing/
+cmake_install.cmake
+*-cmd
+run-tests
+run-tests*include.cmake
+run-tests*tests.cmake
