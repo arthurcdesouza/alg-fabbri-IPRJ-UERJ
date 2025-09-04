@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1756861574939,
+  "lastUpdate": 1757004471258,
   "repoUrl": "https://github.com/arthurcdesouza/alg-fabbri-IPRJ-UERJ",
   "entries": {
     "C++ Benchmark Results": [
@@ -90,6 +90,94 @@ window.BENCHMARK_DATA = {
             "value": 19.21954709404961,
             "unit": "ns/iter",
             "extra": "iterations: 36932436\ncpu: 19.218564407720105 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "arthur.souza@grad.iprj.uerj.com",
+            "name": "arthurcdesouza"
+          },
+          "committer": {
+            "email": "arthur.souza@grad.iprj.uerj.com",
+            "name": "arthurcdesouza"
+          },
+          "distinct": true,
+          "id": "d8dc34458a3f79e941f29714fb193679448f5da6",
+          "message": "Mudando o codigo de merge",
+          "timestamp": "2025-09-04T13:44:03-03:00",
+          "tree_id": "0992e7423bb166c5575cc5fe4f0c4c61c7f89bc2",
+          "url": "https://github.com/arthurcdesouza/alg-fabbri-IPRJ-UERJ/commit/d8dc34458a3f79e941f29714fb193679448f5da6"
+        },
+        "date": 1757004470318,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/0",
+            "value": 21.6736196716855,
+            "unit": "ns/iter",
+            "extra": "iterations: 33340021\ncpu: 21.672765413075176 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/1",
+            "value": 31.167918650488257,
+            "unit": "ns/iter",
+            "extra": "iterations: 22630351\ncpu: 31.16606136599472 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/2",
+            "value": 46.26438062881828,
+            "unit": "ns/iter",
+            "extra": "iterations: 15454279\ncpu: 46.25320780089449 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/10",
+            "value": 181.5751279018084,
+            "unit": "ns/iter",
+            "extra": "iterations: 3838687\ncpu: 181.5680986754064 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/50",
+            "value": 849.3472378407698,
+            "unit": "ns/iter",
+            "extra": "iterations: 822563\ncpu: 849.2798022765428 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/100",
+            "value": 1805.3035554250391,
+            "unit": "ns/iter",
+            "extra": "iterations: 391655\ncpu: 1805.029421301911 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/500",
+            "value": 8777.860825840922,
+            "unit": "ns/iter",
+            "extra": "iterations: 79749\ncpu: 8776.838944688956 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/1000",
+            "value": 17799.844990690948,
+            "unit": "ns/iter",
+            "extra": "iterations: 39746\ncpu: 17798.846248679107 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/10000",
+            "value": 324807.3256880604,
+            "unit": "ns/iter",
+            "extra": "iterations: 2180\ncpu: 324798.5486238534 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/100000",
+            "value": 3297352.938679088,
+            "unit": "ns/iter",
+            "extra": "iterations: 212\ncpu: 3297277.7735849055 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/1000000",
+            "value": 31979716.54545416,
+            "unit": "ns/iter",
+            "extra": "iterations: 22\ncpu: 31977424.04545455 ns\nthreads: 1"
           }
         ]
       }
