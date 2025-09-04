@@ -1,6 +1,6 @@
-add_library(merge 
-  sorted_merge_3way.cpp
-  linked_list_string.cpp
+add_library(merge
+   sorted_merge_3way.cpp
+   linked_list_string.cpp
 )
 # export public header path for other components
 target_include_directories(merge PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
