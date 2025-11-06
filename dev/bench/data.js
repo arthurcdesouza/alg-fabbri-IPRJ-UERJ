@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762470204885,
+  "lastUpdate": 1762470780121,
   "repoUrl": "https://github.com/arthurcdesouza/alg-fabbri-IPRJ-UERJ",
   "entries": {
     "C++ Benchmark Results": [
@@ -448,6 +448,96 @@ window.BENCHMARK_DATA = {
             "value": 32134300.409089956,
             "unit": "ns/iter",
             "extra": "iterations: 22\ncpu: 32131594.95454544 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "arthur.souza@grad.iprj.uerj.br",
+            "name": "arthurcdesouza",
+            "username": "arthurcdesouza"
+          },
+          "committer": {
+            "email": "arthur.souza@grad.iprj.uerj.br",
+            "name": "arthurcdesouza",
+            "username": "arthurcdesouza"
+          },
+          "distinct": true,
+          "id": "15cb5abde499513313ecfb05b7b112950b2c0970",
+          "message": "Fix: Exclude specific submodule CSS files from Jekyll build\\n\\nUpdates _config.yml to exclude the specific SCSS/CSS files from the\\ngoogletest and benchmark submodules that were causing Jekyll build\\failures on GitHub Pages. This is a more targeted approach than\\nexcluding the entire third_party directory.",
+          "timestamp": "2025-11-06T20:09:39-03:00",
+          "tree_id": "a1796727cee877b1a926aa3c9195b0898c2cdce4",
+          "url": "https://github.com/arthurcdesouza/alg-fabbri-IPRJ-UERJ/commit/15cb5abde499513313ecfb05b7b112950b2c0970"
+        },
+        "date": 1762470779804,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/0",
+            "value": 20.877279141796375,
+            "unit": "ns/iter",
+            "extra": "iterations: 33468793\ncpu: 20.87485309075831 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/1",
+            "value": 31.14070056309578,
+            "unit": "ns/iter",
+            "extra": "iterations: 22500443\ncpu: 31.13776057653621 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/2",
+            "value": 46.460955850224074,
+            "unit": "ns/iter",
+            "extra": "iterations: 15436205\ncpu: 46.45987307113374 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/10",
+            "value": 182.02088637515126,
+            "unit": "ns/iter",
+            "extra": "iterations: 3818135\ncpu: 182.01786264760145 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/50",
+            "value": 849.7231504913061,
+            "unit": "ns/iter",
+            "extra": "iterations: 823516\ncpu: 849.6794354936643 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/100",
+            "value": 1803.8449490149892,
+            "unit": "ns/iter",
+            "extra": "iterations: 389330\ncpu: 1803.7892610381932 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/500",
+            "value": 8908.174228515254,
+            "unit": "ns/iter",
+            "extra": "iterations: 79522\ncpu: 8907.438909987168 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/1000",
+            "value": 17566.069931822487,
+            "unit": "ns/iter",
+            "extra": "iterations: 39896\ncpu: 17565.25528875075 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/10000",
+            "value": 321144.1024042756,
+            "unit": "ns/iter",
+            "extra": "iterations: 2246\ncpu: 321116.4781834371 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/100000",
+            "value": 3281553.422535215,
+            "unit": "ns/iter",
+            "extra": "iterations: 213\ncpu: 3281392.582159622 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/1000000",
+            "value": 31974956.40909086,
+            "unit": "ns/iter",
+            "extra": "iterations: 22\ncpu: 31971671.272727273 ns\nthreads: 1"
           }
         ]
       }
