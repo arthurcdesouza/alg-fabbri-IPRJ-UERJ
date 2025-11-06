@@ -1,1 +1,1 @@
-exclude: ["third_party/", "vendor/"]
+exclude: ["vendor/", "third_party/googletest/docs/assets/css/style.scss", "third_party/benchmark/docs/style.css"]
