@@ -14,3 +14,12 @@ run-tests
 run-tests*include.cmake
 run-tests*tests.cmake
 *.sw*
+
+# Compiled files and build artifacts
+*.exe
+*.a
+*.o
+*.obj
+build/
+bin/
+lib/
