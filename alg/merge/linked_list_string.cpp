@@ -2,6 +2,17 @@
 #include <stdlib.h>
 #include <string.h>
 
+void playground_lista() {
+    printf("\n--- Playground Listas 1 ---\n");
+    printf("Esta e a primeira funcao de teste.\n");
+    printf("--- Fim do Playground 1 ---\n\n");
+}
+
+void playground_lista2() {
+     printf("\n--- Playground Listas 2 ---\n");
+     printf("Esta e a segunda funcao de teste.\n");    
+}
+
 #define USE_CHAR_POINTER 1
 #define MAX_CHARS 64
 
@@ -480,6 +491,7 @@ void menuCircular() {
 }
 
 
+#if 0
 int main() {
     int choice;
     printf("Usando representacao de string: %s\n", USE_CHAR_POINTER ? "char* (ponteiro)" : "char[] (array)");
@@ -520,3 +532,4 @@ int main() {
 
     return 0;
 }
+#endif
