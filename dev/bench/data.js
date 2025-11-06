@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762468690114,
+  "lastUpdate": 1762469472591,
   "repoUrl": "https://github.com/arthurcdesouza/alg-fabbri-IPRJ-UERJ",
   "entries": {
     "C++ Benchmark Results": [
@@ -268,6 +268,96 @@ window.BENCHMARK_DATA = {
             "value": 31904359.999999925,
             "unit": "ns/iter",
             "extra": "iterations: 22\ncpu: 31901638.727272764 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "arthur.souza@grad.iprj.uerj.br",
+            "name": "arthurcdesouza",
+            "username": "arthurcdesouza"
+          },
+          "committer": {
+            "email": "arthur.souza@grad.iprj.uerj.br",
+            "name": "arthurcdesouza",
+            "username": "arthurcdesouza"
+          },
+          "distinct": true,
+          "id": "8a3773f44de0e9278dc541a66da2000174218a67",
+          "message": "Chore: Exclude third_party from Jekyll build",
+          "timestamp": "2025-11-06T19:46:40-03:00",
+          "tree_id": "4387f7b3ee48da6c7429c6eb67318b1a26ccf866",
+          "url": "https://github.com/arthurcdesouza/alg-fabbri-IPRJ-UERJ/commit/8a3773f44de0e9278dc541a66da2000174218a67"
+        },
+        "date": 1762469472135,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/0",
+            "value": 20.54966434791018,
+            "unit": "ns/iter",
+            "extra": "iterations: 34445041\ncpu: 20.549284438360807 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/1",
+            "value": 33.70435624131103,
+            "unit": "ns/iter",
+            "extra": "iterations: 20693344\ncpu: 33.696616796202676 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/2",
+            "value": 50.7993307579934,
+            "unit": "ns/iter",
+            "extra": "iterations: 13235272\ncpu: 50.7892627367235 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/10",
+            "value": 215.8992588710611,
+            "unit": "ns/iter",
+            "extra": "iterations: 3224810\ncpu: 215.8506026711652 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/50",
+            "value": 1096.775612072858,
+            "unit": "ns/iter",
+            "extra": "iterations: 635872\ncpu: 1096.7652703688796 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/100",
+            "value": 2275.7158503420997,
+            "unit": "ns/iter",
+            "extra": "iterations: 308517\ncpu: 2275.1136015195266 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/500",
+            "value": 11204.494476838438,
+            "unit": "ns/iter",
+            "extra": "iterations: 61740\ncpu: 11203.038969873654 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/1000",
+            "value": 22795.63704097928,
+            "unit": "ns/iter",
+            "extra": "iterations: 30064\ncpu: 22795.557577168725 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/10000",
+            "value": 396952.03611737635,
+            "unit": "ns/iter",
+            "extra": "iterations: 1772\ncpu: 396937.22799097036 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/100000",
+            "value": 4071720.764705881,
+            "unit": "ns/iter",
+            "extra": "iterations: 170\ncpu: 4071177.458823527 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/1000000",
+            "value": 39967930.166668,
+            "unit": "ns/iter",
+            "extra": "iterations: 18\ncpu: 39966079.388888866 ns\nthreads: 1"
           }
         ]
       }
