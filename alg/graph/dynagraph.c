@@ -1,18 +1,18 @@
 /*
  * =====================================================================================
- * 
+ *
  *        Filename:  dynagraph.c
- * 
+ *
  *     Description:  exercise on completely dynamic graph representation
- * 
+ *
  *         Version:  1.0
  *         Created:  jun/2019
  *        Revision:  none
  *        Compiler:  gcc
- * 
+ *
  *          Author:  Ricardo Fabbri (rfabbri), rfabbri.github.io
  *         Company:  IPRJ/UERJ
- * 
+ *
  * =====================================================================================
  */
 
@@ -24,13 +24,13 @@ typedef struct lista *lista_ptr;
 typedef struct no *no_ptr;
 
 // Guarda uma conexao com peso 'peso' ao no 'no'
-typedef struct lista { 
+typedef struct lista {
   no_ptr no; 
   int peso; 
   struct lista *next; 
 } lista;
 
-typedef struct no { 
+typedef struct no {
   char nome[32]; 
   lista *conexoes; 
 } no;
@@ -55,6 +55,7 @@ int componente_conexo_sem_maximo(no_ptr r, no_ptr nos[], int *n_nos);
 void renomeia_friburgo(const no *p_petro);
 void deleta_no_grafo(no_ptr r);
 
+#ifndef TEST_MODE
 int main() { // monta um grafo e testa
   no nos[5]; char *nomes[5] = {"Petropolis", "Teresopolis", "Niteroi", "Rio", "Friburgo"};
   for (int i = 0; i < 5; ++i) { 
@@ -88,6 +89,7 @@ int main() { // monta um grafo e testa
 
   return 0;
 }
+#endif
 
 // -----------------------------------------------------------------------------
 // renomeia_friburgo : altera nome de Friburgo para Nova Friburgo, dado um ponteiro
@@ -110,10 +112,9 @@ deleta_no_grafo(no_ptr r)
   lista_ptr v = r->conexoes;
   while (v != NULL) {
     remove_conexao(&(v->no->conexoes), r);
-    lista_ptr aux = v;
     v = v->next;
-    free(aux);
   }
+  r->conexoes = NULL;
   // nao faz "free" no no em si - deixa o "caller" dar free se quiser
 }
 
@@ -184,4 +185,3 @@ componente_conexo(no_ptr r, int max_conexao, no_ptr nos[], int *n_nos)
 //    busca elemento
 //    deletar elemento na mao - assumir grafo sempre nao-direcionado - ida e volta
 //    funcao para deletar elemento
-
