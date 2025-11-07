@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762471333740,
+  "lastUpdate": 1762475898586,
   "repoUrl": "https://github.com/arthurcdesouza/alg-fabbri-IPRJ-UERJ",
   "entries": {
     "C++ Benchmark Results": [
@@ -628,6 +628,96 @@ window.BENCHMARK_DATA = {
             "value": 31925144.454545904,
             "unit": "ns/iter",
             "extra": "iterations: 22\ncpu: 31922735.772727296 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "arthur.souza@grad.iprj.uerj.br",
+            "name": "arthurcdesouza",
+            "username": "arthurcdesouza"
+          },
+          "committer": {
+            "email": "arthur.souza@grad.iprj.uerj.br",
+            "name": "arthurcdesouza",
+            "username": "arthurcdesouza"
+          },
+          "distinct": true,
+          "id": "5cd3a4dbf4eb6aebb602622253133c960f92529a",
+          "message": "feat(graph): Adiciona teste unitário para deleção de nó\n\nEste commit introduz um teste unitário para a função deleta_no_grafo no componente dynagraph.\n\nO teste descobriu e levou à correção de dois bugs:\n- Um problema de corrupção de memória (heap corruption) devido a uma dupla liberação (double-free).\n- Um bug onde a lista de conexões do nó deletado não estava sendo definida como NULL.\n\nO código foi limpo após as correções.",
+          "timestamp": "2025-11-06T21:34:50-03:00",
+          "tree_id": "2032d9898df906826ac93e106cb70c1782abb946",
+          "url": "https://github.com/arthurcdesouza/alg-fabbri-IPRJ-UERJ/commit/5cd3a4dbf4eb6aebb602622253133c960f92529a"
+        },
+        "date": 1762475898280,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/0",
+            "value": 21.268182622137672,
+            "unit": "ns/iter",
+            "extra": "iterations: 33227757\ncpu: 21.262620645745066 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/1",
+            "value": 31.68528035008053,
+            "unit": "ns/iter",
+            "extra": "iterations: 22330830\ncpu: 31.679698291554764 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/2",
+            "value": 46.70709167058704,
+            "unit": "ns/iter",
+            "extra": "iterations: 15218840\ncpu: 46.69762557461675 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/10",
+            "value": 181.70079317487085,
+            "unit": "ns/iter",
+            "extra": "iterations: 3833833\ncpu: 181.66469353255607 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/50",
+            "value": 853.6059843594054,
+            "unit": "ns/iter",
+            "extra": "iterations: 823881\ncpu: 853.5708203005045 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/100",
+            "value": 1815.708056107049,
+            "unit": "ns/iter",
+            "extra": "iterations: 390325\ncpu: 1815.5054044706337 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/500",
+            "value": 8792.403898165408,
+            "unit": "ns/iter",
+            "extra": "iterations: 78755\ncpu: 8791.624252428415 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/1000",
+            "value": 17706.660397527092,
+            "unit": "ns/iter",
+            "extra": "iterations: 39293\ncpu: 17705.771002468646 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/10000",
+            "value": 324586.6606741575,
+            "unit": "ns/iter",
+            "extra": "iterations: 2225\ncpu: 324560.9330337078 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/100000",
+            "value": 3325391.151658779,
+            "unit": "ns/iter",
+            "extra": "iterations: 211\ncpu: 3325116.170616112 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/1000000",
+            "value": 32309981.818183467,
+            "unit": "ns/iter",
+            "extra": "iterations: 22\ncpu: 32308842.181818224 ns\nthreads: 1"
           }
         ]
       }
